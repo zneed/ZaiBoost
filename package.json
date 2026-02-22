@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "node --import tsx/esm server.ts",
-    "build": "vite build",
-    "preview": "vite preview",
-    "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+ "scripts": {
+  "start": "node --import tsx/esm server.ts",
+  "dev": "node --import tsx/esm server.ts",
+  "build": "vite build",
+  "preview": "vite preview",
+  "clean": "rm -rf dist",
+  "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
