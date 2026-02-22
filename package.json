@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --import tsx/esm server.ts",
-    "start": "node server.js",
+    "start": "node server.ts",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit",
