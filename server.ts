@@ -263,6 +263,10 @@ async function startServer() {
     app.get("*", (_req: Request, res: Response) => res.sendFile(path.join(__dirname, "dist", "index.html")));
   }
 
+console.log("NODE_ENV =", process.env.NODE_ENV);
+console.log("ENV PORT =", process.env.PORT);
+console.log("FINAL PORT =", PORT);
+
   app.listen(PORT, "0.0.0.0", () => {
     console.log(`🚀 ZaiBoost server running → http://localhost:${PORT}`);
   });
