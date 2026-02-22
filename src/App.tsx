@@ -169,7 +169,7 @@ const Hero = ({ onNavigate }: { onNavigate: (page: string) => void }) => (
           #1 Multi-Game Boosting Service
         </span>
         <h1 className="text-5xl md:text-7xl font-extrabold text-zinc-900 tracking-tight mb-6 leading-tight">
-          Genshin & WuWa <br /> <span className="text-indigo-600">Tanpa Lelah.</span>
+          Joki Genshin & WuWa <br /> <span className="text-indigo-600">Tanpa Lelah.</span>
         </h1>
         <p className="text-xl text-zinc-500 max-w-2xl mx-auto mb-10 leading-relaxed">
           Selesaikan Daily, Exploration, hingga Endgame Content (Spiral Abyss & Tower of Adversity) dengan aman dan terpercaya.
