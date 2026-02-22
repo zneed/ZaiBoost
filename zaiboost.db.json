@@ -1,0 +1,261 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "d895db9243ca16d2b1a649cb0666e5d7:debb6089d2506ae29ed9d2974ee6bd0677ee30866e101eb67c93576362adeb99d291134a26353cafca4acea665a21c70dd03caa5a90ccda1f0cde5ad9ef00627",
+      "role": "admin",
+      "created_at": "2026-02-21T18:31:59.200Z"
+    },
+    {
+      "id": 2,
+      "username": "zaidan",
+      "password": "0755fbef30450462471231eb28e905cf:dbc4c37a7e81dda04699fc879a8c7e385aaf1db223f77c62e62974c42c242c5d2d51d3ec3e9d0eb6e87f3c845e92de9030e6f732957db9f0f5e55faae3caf1c9",
+      "role": "customer",
+      "created_at": "2026-02-21T18:37:53.457Z"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "game": "genshin",
+      "category": "daily",
+      "name": "Genshin: Paket Mingguan (7 Hari)",
+      "description": "Daily Commission + Resin + Event + Battle Pass Daily",
+      "price_base": 0,
+      "price_per_unit": 5000,
+      "unit_name": "hari",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 2,
+      "game": "genshin",
+      "category": "daily",
+      "name": "Genshin: Paket Bulanan (30 Hari)",
+      "description": "Full Maintenance: Daily + Resin + Event + BP + Weekly Boss",
+      "price_base": 0,
+      "price_per_unit": 4000,
+      "unit_name": "hari",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 3,
+      "game": "genshin",
+      "category": "explore",
+      "name": "Genshin: Mondstadt 100%",
+      "description": "Eksplorasi wilayah Mondstadt per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 2500,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 4,
+      "game": "genshin",
+      "category": "explore",
+      "name": "Genshin: Liyue 100%",
+      "description": "Eksplorasi wilayah Liyue per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 3000,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 5,
+      "game": "genshin",
+      "category": "explore",
+      "name": "Genshin: Inazuma 100%",
+      "description": "Eksplorasi wilayah Inazuma per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 3500,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 6,
+      "game": "genshin",
+      "category": "explore",
+      "name": "Genshin: Sumeru 100%",
+      "description": "Eksplorasi wilayah Sumeru per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 4500,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 7,
+      "game": "genshin",
+      "category": "explore",
+      "name": "Genshin: Fontaine 100%",
+      "description": "Eksplorasi wilayah Fontaine per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 4000,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 8,
+      "game": "genshin",
+      "category": "explore",
+      "name": "Genshin: Natlan 100%",
+      "description": "Eksplorasi wilayah Natlan per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 5000,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 9,
+      "game": "genshin",
+      "category": "endgame",
+      "name": "Genshin: Spiral Abyss (36 Stars)",
+      "description": "Full Clear Floor 9-12 dengan 36 Bintang (Garansi)",
+      "price_base": 60000,
+      "price_per_unit": 0,
+      "unit_name": "clear",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 10,
+      "game": "genshin",
+      "category": "endgame",
+      "name": "Genshin: Imaginarium Theater (Visionary)",
+      "description": "Full Clear Mode Visionary / Hard Mode",
+      "price_base": 50000,
+      "price_per_unit": 0,
+      "unit_name": "clear",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 11,
+      "game": "wuwa",
+      "category": "daily",
+      "name": "WuWa: Daily Maintenance (7 Hari)",
+      "description": "Daily Activity + Waveplates + Echo Farming + BP",
+      "price_base": 0,
+      "price_per_unit": 6000,
+      "unit_name": "hari",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 12,
+      "game": "wuwa",
+      "category": "daily",
+      "name": "WuWa: Monthly Maintenance (30 Hari)",
+      "description": "Full Maintenance: Daily + Waveplates + BP + Events",
+      "price_base": 0,
+      "price_per_unit": 5000,
+      "unit_name": "hari",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 13,
+      "game": "wuwa",
+      "category": "explore",
+      "name": "WuWa: Jinzhou 100%",
+      "description": "Eksplorasi wilayah Jinzhou per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 3000,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 14,
+      "game": "wuwa",
+      "category": "explore",
+      "name": "WuWa: Central Plains 100%",
+      "description": "Eksplorasi wilayah Central Plains per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 3500,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 15,
+      "game": "wuwa",
+      "category": "explore",
+      "name": "WuWa: Mt. Firmament 100%",
+      "description": "Eksplorasi wilayah Mt. Firmament per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 5500,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 16,
+      "game": "wuwa",
+      "category": "explore",
+      "name": "WuWa: Black Shores 100%",
+      "description": "Eksplorasi wilayah Black Shores per 1% progress",
+      "price_base": 0,
+      "price_per_unit": 6000,
+      "unit_name": "%",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 17,
+      "game": "wuwa",
+      "category": "endgame",
+      "name": "WuWa: Tower of Adversity (30/30 Stars)",
+      "description": "Full Clear Hazard Zone dengan 30 Bintang (Garansi)",
+      "price_base": 75000,
+      "price_per_unit": 0,
+      "unit_name": "clear",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    },
+    {
+      "id": 18,
+      "game": "wuwa",
+      "category": "endgame",
+      "name": "WuWa: Hologram Calamity (Difficulty 6)",
+      "description": "Clear Hologram Strategy Difficulty 6 (Per Boss)",
+      "price_base": 30000,
+      "price_per_unit": 0,
+      "unit_name": "boss",
+      "created_at": "2026-02-21T18:31:59.017Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "service_id": 1,
+      "game": "genshin",
+      "uid": "845028738",
+      "server": "Asia",
+      "game_username": "admin",
+      "game_password": "9c9bafcb3874db3076c0bedac2b6cdb0:b96a7aa166bd2ab86aa228621a873597",
+      "total_price": 35000,
+      "status": "completed",
+      "start_value": 0,
+      "current_value": 7,
+      "target_value": 7,
+      "notes": "saving resin",
+      "created_at": "2026-02-21T18:33:32.348Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "service_id": 17,
+      "game": "wuwa",
+      "uid": "845028777",
+      "server": "Asia",
+      "game_username": "zaidan",
+      "game_password": "4434f23097ac3e3e3f9d440e7957bea8:9009b681f05b9a87606c39e575810ff1",
+      "total_price": 75000,
+      "status": "processing",
+      "start_value": 0,
+      "current_value": 90,
+      "target_value": 100,
+      "notes": "gaskan",
+      "created_at": "2026-02-21T18:38:18.074Z"
+    }
+  ],
+  "reviews": [],
+  "counters": {
+    "users": 2,
+    "services": 18,
+    "orders": 2,
+    "reviews": 0
+  }
+}
